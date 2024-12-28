@@ -74,7 +74,6 @@ emoji==2.12.1
 entrypoints==0.4
 et-xmlfile==1.1.0
 exceptiongroup==1.1.0
-executing==1.4.3
 Farama-Notifications==0.0.4
 fastjsonschema==2.16.1
 filelock==3.13.4
