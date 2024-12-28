@@ -13,7 +13,6 @@ import os
 import random
 from PIL import Image
 import matplotlib.pyplot as plt
-from IPython.display import display
 from ultralytics import YOLO
 
 
