@@ -10,3 +10,4 @@
 - **Модель:** **модель YOLO 11** [https://pytorch.org/vision/master/models/faster_rcnn.html](https://github.com/ultralytics/ultralytics)
 
 **Пример использования**
+![Мое изображение](predict/predict.png)
