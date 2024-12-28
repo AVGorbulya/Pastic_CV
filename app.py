@@ -15,8 +15,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 from IPython.display import display
 from ultralytics import YOLO
-import requests
-from io import BytesIO
+
 
 # 1. Задать путь к модели и данным
 model_path = 'https://github.com/AVGorbulya/Pastic_CV/blob/main/best.pt'
@@ -77,4 +76,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
