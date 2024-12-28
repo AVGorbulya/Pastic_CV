@@ -14,7 +14,10 @@ import random
 from PIL import Image
 import matplotlib.pyplot as plt
 from ultralytics import YOLO
+import cv2  # Добавлен импорт cv2 для устранения проблемы с OpenCV
 
+# Проверка наличия библиотеки libGL.so.1
+os.environ['LD_LIBRARY_PATH'] = '/usr/lib64:/usr/local/lib:/usr/lib'
 
 # 1. Задать путь к модели и данным
 model_path = 'https://github.com/AVGorbulya/Pastic_CV/blob/main/best.pt'
